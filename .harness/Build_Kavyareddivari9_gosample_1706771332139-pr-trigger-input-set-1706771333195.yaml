@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Kavyareddivari9_gosample_1706771332139-pr-trigger-input-set
+  identifier: Build_Kavyareddivari9_gosample_1706771332139prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Kavyareddivari9_gosample_1706771332139
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
